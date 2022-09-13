@@ -151,9 +151,9 @@ a:hover {
     text-decoration: none;
   }
 
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .bottom-cloud {
-        position: static;
+      position: static;
     }
 }
