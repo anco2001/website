@@ -100,6 +100,12 @@ a:hover {
     bottom: 300px;
 }
 
+.mountain {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
 .image_music {
     width: 30%;
     float: left;
@@ -144,3 +150,10 @@ a:hover {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .bottom-cloud {
+        position: static;
+    }
+}
